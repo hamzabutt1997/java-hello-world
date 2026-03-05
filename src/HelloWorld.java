@@ -3,17 +3,28 @@ public class HelloWorld {
         System.out.println("=========================================");
         System.out.println("        Hello World from Jenkins!        ");
         System.out.println("        Built with Docker Pipeline       ");
-        System.out.println("        Developer: Hamza Butt            ");
+        System.out.println("        Developer: Hamza Shafiq          ");
         System.out.println("        Version: 1.0                     ");
         System.out.println("=========================================");
     }
 }
 ```
+```
+Ctrl+S to save
+      ↓
+SourceTree → Stage → Commit → Push
+      ↓
+Jenkins → Build Now!
+```
 
 ---
 
-# Steps
+## Good News Though! 🎉
 ```
-1. Click HelloWorld.java in VS Code
-2. Paste this code
-3. Press Ctrl+S to save
+✅ Docker image pulled successfully
+✅ Container created successfully
+✅ Checkout stage worked
+✅ Compile stage started
+
+Only HelloWorld.java has wrong content!
+One fix and pipeline will pass! 💪
