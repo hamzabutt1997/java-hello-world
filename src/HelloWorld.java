@@ -8,23 +8,3 @@ public class HelloWorld {
         System.out.println("=========================================");
     }
 }
-```
-```
-Ctrl+S to save
-      ↓
-SourceTree → Stage → Commit → Push
-      ↓
-Jenkins → Build Now!
-```
-
----
-
-## Good News Though! 🎉
-```
-✅ Docker image pulled successfully
-✅ Container created successfully
-✅ Checkout stage worked
-✅ Compile stage started
-
-Only HelloWorld.java has wrong content!
-One fix and pipeline will pass! 💪
