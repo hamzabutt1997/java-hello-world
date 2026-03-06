@@ -5,6 +5,10 @@ pipeline
             image 'eclipse-temurin:11'
         }
     }
+    triggers
+    {
+        githubPush()
+    }
     environment
     {
         APP_NAME = "java-hello-world"
